@@ -9,7 +9,7 @@
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "report": "playwright show-report",
-    "fppaNavigation": "playwright test --headed tests/fppaNavigation.spec.js"
+    "fddaNavigation": "playwright test --headed e2e/tests/fddaNavigation.spec.js"
   },
   "keywords": [],
   "author": "",
