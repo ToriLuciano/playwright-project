@@ -5,16 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "test:fppa": "playwright test e2e/tests/fddaNavigation.spec.js",
+    "test:fppa": "playwright test e2e/tests/fppaNavigation.spec.js",
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "report": "playwright show-report",
-    "fddaNavigation": "playwright test --headed e2e/tests/fddaNavigation.spec.js"
+    "fppaNavigation": "playwright test --headed e2e/tests/fppaNavigation.spec.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
     "@playwright/test": "^1.40.0"
   }
 }
