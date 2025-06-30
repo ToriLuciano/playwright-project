@@ -9,7 +9,11 @@
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "report": "playwright show-report",
-    "fppaNavigation": "playwright test --headed e2e/tests/fppaNavigation.spec.js"
+    "fppaNavigation": "playwright test --headed e2e/tests/fppaNavigation.spec.js",
+    "employerLogin": "playwright test --headed e2e/tests/employerPortalLogin.spec.js",
+    "navBarTest": "playwright test --headed e2e/tests/navBarNavigation.spec.js",
+    "fppaNavigation:chrome": "playwright test --project=chromium --headed --workers=1 e2e/tests/fppaNavigation.spec.js",
+    "test:chrome": "playwright test --project=chromium --headed --workers=1"
   },
   "keywords": [],
   "author": "",

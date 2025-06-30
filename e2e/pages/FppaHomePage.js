@@ -3,7 +3,7 @@ const { expect } = require("@playwright/test");
 export class FppaHomePage {
   constructor(page) {
     this.page = page;
-    this.url = 'https://www.fppaco.org/';
+    this.url = 'https://www.fppaco.org';
 
     // Element identification (alphabetized)
     this.aboutLink = this.page.getByRole('link', { name: 'About' });
